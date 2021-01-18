@@ -11,4 +11,3 @@ for test_case in range(1, T + 1):
         print("#%d 1" % test_case)
     else:
         print("#%d 0" % test_case)
-
