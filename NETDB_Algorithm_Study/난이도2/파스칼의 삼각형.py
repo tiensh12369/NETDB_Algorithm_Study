@@ -10,7 +10,7 @@ for test_case in range(1, T + 1):
     
 
     for i in range(N-1):
-        a.append(0)
+        a.append(0) 
         b = []
         for item in a[::-1]:
             b.append(item)
