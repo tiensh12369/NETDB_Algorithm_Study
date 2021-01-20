@@ -1,3 +1,22 @@
+'''
+T = int(input())
+c = (50000, 10000, 5000, 1000, 500, 100, 50, 10)
+d = [0]*len(c)
+
+for test_case in range(1, T + 1):
+	money = int(input())
+    
+	print(f'#{test_case}')
+
+          
+	for i in range(len(c)):
+		d[i] = money // c[i]
+		money = money % c[i]
+		print(d[i], end=" ")
+          
+	print()
+'''
+
 T = int(input())
 
 for test_case in range(1, T + 1):
