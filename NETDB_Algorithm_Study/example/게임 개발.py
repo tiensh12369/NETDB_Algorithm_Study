@@ -44,7 +44,6 @@ while True:
             y = ny
         else:
             break
-
-    turn_time = 0
+        turn_time = 0
 
 print(count)
